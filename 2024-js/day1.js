@@ -1,8 +1,3 @@
-/* NOTE: These scripts are meant to be run from the browser console.
- * Navigate to https://adventofcode.com/2024/day/1/input, open the browser
- * console, and then run this code.
- */
-
 let input = document.body.innerText.split('\n').map(line => line.split('   '));
 let left = [], right = [], diff = 0, similarity = 0;
 
