@@ -3,6 +3,19 @@ aoc
 
 My solutions to Advent of Code for 2024 and beyond.
 
+Running
+-------
+
+For Python scripts:
+
+	$ cd $YEAR-py
+	$ python3 day$DAY.py
+
+For JavaScript:
+1. Open a browser
+2. Navigate to https://adventofcode.com/$YEAR/day/$DAY/input
+3. Copy and paste the code into the browser console
+
 License
 -------
 Unlicense.
