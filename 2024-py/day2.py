@@ -1,13 +1,17 @@
 import math
 
-with open('day2.txt', 'r') as f:
-    lines = [[int(i) for i in l.split(' ')] for l in f.read().splitlines()]
+with open("day2.txt", "r") as f:
+    lines = [[int(i) for i in l.split(" ")] for l in f.read().splitlines()]
+
 
 def safe(levels):
-    diffs = [levels[i] - levels[i+1] for i in range(len(levels)-1)]
+    diffs = [levels[i] - levels[i + 1] for i in range(len(levels) - 1)]
     safe_count = all([1 <= abs(diff) <= 3 for diff in diffs])
-    safe_sign = all([math.copysign(1, diff) == math.copysign(1, diffs[0]) for diff in diffs])
+    safe_sign = all(
+        [math.copysign(1, diff) == math.copysign(1, diffs[0]) for diff in diffs]
+    )
     return safe_count and safe_sign
+
 
 part1 = 0
 part2 = 0
@@ -24,5 +28,5 @@ for line in lines:
                 part2 += 1
                 break
 
-print('Part 1:', part1)
-print('Part 2:', part2)
+print("Part 1:", part1)
+print("Part 2:", part2)

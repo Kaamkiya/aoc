@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-with open('day2.txt', 'r') as f:
+with open("day2.txt", "r") as f:
     inp = f.read().splitlines()
     commands = defaultdict(list)
     raw_commands = []
@@ -9,23 +9,23 @@ with open('day2.txt', 'r') as f:
         raw_commands.append((cmd, int(amount)))
         commands[cmd].append(int(amount))
 
-depth = sum(commands['down']) - sum(commands['up'])
-forward = sum(commands['forward'])
+depth = sum(commands["down"]) - sum(commands["up"])
+forward = sum(commands["forward"])
 
-print('Part 1:', depth*forward)
+print("Part 1:", depth * forward)
 
 depth = 0
 forward = 0
 aim = 0
 
-for (cmd, amount) in raw_commands:
+for cmd, amount in raw_commands:
     match cmd:
-        case 'down':
+        case "down":
             aim += amount
-        case 'up':
+        case "up":
             aim -= amount
-        case 'forward':
+        case "forward":
             forward += amount
             depth += aim * amount
 
-print('Part 2:', depth*forward)
+print("Part 2:", depth * forward)

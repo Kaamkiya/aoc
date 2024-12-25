@@ -1,9 +1,9 @@
 from collections import defaultdict
 
-with open('day1.txt', 'r') as f:
+with open("day1.txt", "r") as f:
     contents = f.read().splitlines()
 
-lines = [x.split('   ') for x in contents]
+lines = [x.split("   ") for x in contents]
 left = [int(a) for (a, _) in lines]
 right = [int(b) for (_, b) in lines]
 
@@ -21,10 +21,10 @@ for a in right:
 for i, a in enumerate(left):
     b = right[i]
 
-    diff = abs(a-b)
+    diff = abs(a - b)
     total += diff
 
     similarity += a * counts[a]
 
-print('Part 1: Total diff:', total)
-print('Part 2: similarity:', similarity)
+print("Part 1: Total diff:", total)
+print("Part 2: similarity:", similarity)
