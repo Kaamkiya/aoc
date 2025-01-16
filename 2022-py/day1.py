@@ -1,4 +1,4 @@
-with open("day1.txt", "r") as f:
+with open("2022-inputs/day1.txt", "r") as f:
     calories = f.read().split("\n\n")
 
 elf_calories = []

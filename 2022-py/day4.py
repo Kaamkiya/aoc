@@ -1,4 +1,4 @@
-with open("day4.txt", "r") as f:
+with open("2022-inputs/day4.txt", "r") as f:
     data = [line.split(",") for line in f.read().splitlines()]
 
 

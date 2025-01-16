@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-with open("day2.txt", "r") as f:
+with open("2021-inputs/day2.txt", "r") as f:
     inp = f.read().splitlines()
     commands = defaultdict(list)
     raw_commands = []
