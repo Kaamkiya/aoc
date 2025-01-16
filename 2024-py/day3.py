@@ -1,6 +1,6 @@
 import re
 
-with open("day3.txt", "r") as f:
+with open("2024-inputs/day3.txt", "r") as f:
     data = f.read()
 
 part1 = sum(

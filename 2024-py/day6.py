@@ -1,4 +1,4 @@
-with open("day6.txt", "r") as f:
+with open("2024-inputs/day6.txt", "r") as f:
     grid = [list(line) for line in f.read().splitlines()]
 
 directions = (

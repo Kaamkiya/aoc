@@ -1,6 +1,6 @@
 import math
 
-with open("day2.txt", "r") as f:
+with open("2024-inputs/day2.txt", "r") as f:
     lines = [[int(i) for i in l.split(" ")] for l in f.read().splitlines()]
 
 

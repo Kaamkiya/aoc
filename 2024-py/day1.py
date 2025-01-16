@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-with open("day1.txt", "r") as f:
+with open("2024-inputs/day1.txt", "r") as f:
     contents = f.read().splitlines()
 
 lines = [x.split("   ") for x in contents]
