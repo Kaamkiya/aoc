@@ -1,4 +1,4 @@
-with open("day5.txt", "r") as f:
+with open("2015-inputs/day5.txt", "r") as f:
     words = f.read().splitlines()
 
 part1 = 0

@@ -1,4 +1,4 @@
-with open("day3.txt", "r") as f:
+with open("2015-inputs/day3.txt", "r") as f:
     data = f.read()
 
 santa_x = 0

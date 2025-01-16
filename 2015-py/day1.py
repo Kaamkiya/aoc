@@ -1,4 +1,4 @@
-with open("day1.txt", "r") as f:
+with open("2015-inputs/day1.txt", "r") as f:
     data = f.read()
 
 floor = 1

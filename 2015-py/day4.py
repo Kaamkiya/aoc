@@ -1,6 +1,6 @@
 import hashlib
 
-with open("day4.txt", "r") as f:
+with open("2015-inputs/day4.txt", "r") as f:
     key = f.read().strip()
 
 i = 0
