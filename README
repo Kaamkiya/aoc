@@ -8,8 +8,13 @@ Running
 
 For Python scripts:
 
-	$ cd $YEAR-py
-	$ python3 day$DAY.py
+	$ python3 $YEAR-py/day$DAY.py
+
+For Elvish:
+
+Install Elvish: https://elv.sh
+
+	$ elvish $YEAR-elv/day$DAY.elv
 
 For JavaScript:
 1. Open a browser
