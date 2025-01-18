@@ -1,7 +1,7 @@
 with open("2015-inputs/day1.txt", "r") as f:
     data = f.read()
 
-floor = 1
+floor = 0
 entered_basement = -1
 
 for i, move in enumerate(data):
