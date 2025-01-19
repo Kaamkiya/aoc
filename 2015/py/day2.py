@@ -1,4 +1,4 @@
-with open("2015-inputs/day2.txt", "r") as f:
+with open("2015/_inputs/day2.txt", "r") as f:
     data = [[int(i) for i in line.split("x")] for line in f.read().splitlines()]
 
 total_wrap = 0  # Part 1

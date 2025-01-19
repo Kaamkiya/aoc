@@ -3,7 +3,7 @@ use str
 var part1 = 0
 var part2 = 0
 
-var lines = [(cat 2015-inputs/day2.txt)]
+var lines = [(cat 2015/_inputs/day2.txt)]
 var data = []
 
 fn smallest_area {|a b c|

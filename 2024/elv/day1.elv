@@ -1,7 +1,7 @@
 use str
 use math
 
-var raw_lines = [(cat 2024-inputs/day1.txt)]
+var raw_lines = [(cat 2024/_inputs/day1.txt)]
 var left = []
 var right = []
 

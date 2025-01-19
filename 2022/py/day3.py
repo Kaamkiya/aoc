@@ -1,6 +1,6 @@
 from string import ascii_letters
 
-with open("2022-inputs/day3.txt", "r") as f:
+with open("2022/_inputs/day3.txt", "r") as f:
     rucksacks = f.read().splitlines()
 
 part1 = 0

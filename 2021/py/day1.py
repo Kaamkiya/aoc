@@ -1,4 +1,4 @@
-with open("2021-inputs/day1.txt", "r") as f:
+with open("2021/_inputs/day1.txt", "r") as f:
     depths = [int(i) for i in f.read().splitlines()]
 
 part1 = 0

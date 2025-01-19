@@ -1,7 +1,7 @@
 var part1 = (num 0)
 var part2 = (num -1)
 
-var data = (cat 2015-inputs/day1.txt)
+var data = (cat 2015/_inputs/day1.txt)
 
 for i [(range (count $data))] {
   var c = $data[$i]

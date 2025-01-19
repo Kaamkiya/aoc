@@ -1,4 +1,4 @@
-with open("2022-inputs/day2.txt", "r") as f:
+with open("2022/_inputs/day2.txt", "r") as f:
     data = [line.split() for line in f.read().splitlines()]
 
 other_move = [a for (a, _) in data]
