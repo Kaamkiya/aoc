@@ -1,20 +1,23 @@
 aoc
 ===
 
-My solutions to Advent of Code for 2024 and beyond.
+My solutions to Advent of Code in any language that interests me.
 
 Running
 -------
 
+Note that all scripts must be run from the root of this repository, because the
+paths are hard coded.
+
 For Python scripts:
 
-	$ python3 $YEAR-py/day$DAY.py
+	$ python3 $YEAR/py/day$DAY.py
 
 For Elvish:
 
 Install Elvish: https://elv.sh
 
-	$ elvish $YEAR-elv/day$DAY.elv
+	$ elvish $YEAR/elv/day$DAY.elv
 
 For JavaScript:
 1. Open a browser
