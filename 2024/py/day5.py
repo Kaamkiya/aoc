@@ -1,6 +1,6 @@
 from functools import cmp_to_key
 
-with open('2024-inputs/day5.txt', 'r') as f:
+with open('_inputs/day5.txt', 'r') as f:
     data = [line.strip() for line in f.readlines()]
 
 rule_lines = []

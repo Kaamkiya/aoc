@@ -1,4 +1,4 @@
-with open("2024-inputs/day4.txt", "r") as f:
+with open("_inputs/day4.txt", "r") as f:
     data = f.read().splitlines()
 
 directions = [(-1, 0), (-1, -1), (1, 0), (-1, 1), (0, -1), (1, -1), (0, 1), (1, 1)]
