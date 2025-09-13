@@ -11,7 +11,7 @@ for line in data:
     elif ',' in line:
         update_lines.append(line)
 
-rules = {}
+rules = []
 part1 = 0
 
 last_line = 0
@@ -19,8 +19,7 @@ last_line = 0
 for line in rule_lines:
     (a, b) = [int(i) for i in line.strip().split('|')]
 
-    if not rules.get(a)
-    rules.append([a, int(rule[1])])
+    rules.append([a, b])
 
 def correct_order(pages):
     for [before, after] in rules:
